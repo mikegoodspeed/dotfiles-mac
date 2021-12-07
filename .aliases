@@ -1,9 +1,3 @@
-# GNU coreutils
-PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
-
-# GNU findutils
-PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
-
 # bat as a cat replacement
 alias cat="bat -p"
 
