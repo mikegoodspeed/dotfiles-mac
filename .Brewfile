@@ -17,13 +17,11 @@ brew "zsh"
 cask "1password"
 cask "bbedit"
 cask "blank-screensaver"
-cask "catch"
 cask "font-sauce-code-pro-nerd-font"
 cask "iterm2"
 cask "keepingyouawake"
 cask "mullvadvpn"
 cask "openemu"
-cask "plex-media-server"
 cask "pycharm"
 cask "rectangle"
 cask "slack"
@@ -41,4 +39,3 @@ mas "StopTheMadness", id: 1376402589
 mas "Tampermonkey", id: 1482490089
 mas "Tweetbot", id: 1384080005
 mas "Vinegar", id: 1591303229
-mas "Xcode", id: 497799835
