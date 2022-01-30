@@ -38,4 +38,3 @@ mas "Sleep Mode Utility", id: 1206520984
 mas "StopTheMadness", id: 1376402589
 mas "Tampermonkey", id: 1482490089
 mas "Tweetbot", id: 1384080005
-mas "Vinegar", id: 1591303229
