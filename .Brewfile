@@ -29,6 +29,7 @@ cask "pycharm"
 cask "rectangle"
 cask "sf-symbols"
 cask "slack"
+cask "steermouse"
 cask "transmission"
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
