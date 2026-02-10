@@ -1,55 +1,54 @@
 tap "apparition47/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "theseal/blank-screensaver"
-brew "aria2"
 brew "bat"
-brew "cheat"
 brew "coreutils"
-brew "fd"
+brew "dotnet"
 brew "git"
 brew "lsd"
 brew "mas"
+brew "mole"
 brew "pyenv"
-brew "swiftlint"
+brew "uv"
 brew "xcodes"
 brew "zplug"
-cask "1password"
 cask "bbedit"
-cask "blank-screensaver"
+cask "chatgpt"
+cask "codex"
+cask "codex-app"
 cask "font-sauce-code-pro-nerd-font"
 cask "font-sf-pro"
-cask "iina"
-cask "iterm2"
+cask "ghostty"
 cask "keepingyouawake"
-cask "logi-options-plus"
-cask "mullvadvpn"
+cask "logi-options+"
+cask "mullvad-vpn"
 cask "openemu"
 cask "pycharm"
 cask "rectangle"
 cask "sf-symbols"
-cask "slack"
-cask "steermouse"
 cask "transmission"
 cask "visual-studio-code"
 cask "zoom"
-mas "1Password for Safari", id: 1569813296
-mas "AdGuard for Safari", id: 1440147259
 mas "DaisyDisk", id: 411643860
-mas "FoodNoms", id: 1479461686
-mas "Hush", id: 1544743900
+mas "Foodnoms", id: 1479461686
+mas "GarageBand", id: 682658836
 mas "iFlicks 3", id: 1274494218
 mas "iMovie", id: 408981434
 mas "Ivory", id: 6444602274
-mas "Microsoft To Do", id: 1274495053
-mas "Mimeo Photos", id: 1282504627
+mas "Keynote", id: 409183694
 mas "Noir", id: 1592917505
-mas "Pixelmator Pro", id: 1289583905
-mas "Playgrounds", id: 1496833156
-mas "Reeder", id: 1529448980
-mas "Scratch 3", id: 1446785996
-mas "Sleep Mode Utility", id: 1206520984
-mas "StopTheMadness", id: 1376402589
-mas "The Unarchiver", id: 425424353
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Wipr", id: 1662217862
+vscode "chadalen.vscode-jetbrains-icon-theme"
+vscode "charliermarsh.ruff"
+vscode "digimezzo.jetbrains-rider-new-ui-theme"
+vscode "guyskk.language-cython"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "openai.chatgpt"
