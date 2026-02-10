@@ -11,15 +11,7 @@ alias la="ls -a"
 alias lla="ls -la"
 alias lt="ls --tree"
 
-# pip for python package management
-export PIP_DISABLE_PIP_VERSION_CHECK=1
-
-# pyenv to manage python versions
-eval "$(pyenv init --path)"
+# pyenv
+export PATH="$HOME/.pyenv/shims:$PATH"
 eval "$(pyenv init -)"
 
-# poetry for python development
-export PATH="$HOME/.poetry/bin:$PATH"
-
-# pipx to run isolated python packages
-export PATH="$HOME/.local/bin:$PATH"

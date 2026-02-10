@@ -26,5 +26,7 @@ bindkey "\e[1;5D" backward-word   # ctrl+left
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-source .zplugrc
-source .aliases
+source ~/.zplugrc
+source ~/.aliases
+source ~/.secrets
+
