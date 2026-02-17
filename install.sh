@@ -36,6 +36,10 @@ mkdir -p .config/lsd
 ln -sf $DOTFILES_DIR/.config/lsd/config.yaml .config/lsd/config.yaml
 ln -sf $DOTFILES_DIR/.config/lsd/colors.yaml .config/lsd/colors.yaml
 
+echo "Linking zed config"
+mkdir -p .config/zed
+ln -sf $DOTFILES_DIR/.config/zed/settings.json .config/zed/settings.json
+
 echo "Linking .vimrc"
 mkdir -p .vim/backup .vim/swap .vim/view .vim/undo
 ln -sf $DOTFILES_DIR/.vimrc
