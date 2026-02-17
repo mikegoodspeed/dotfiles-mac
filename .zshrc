@@ -31,8 +31,13 @@ if [[ -x /opt/homebrew/bin/brew ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# completion
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 # load optional local config files only when present
-for file in ~/.zplugrc ~/.aliases ~/.secrets; do
+for file in ~/.aliases ~/.secrets; do
   [[ -r "$file" ]] && source "$file"
 done
 

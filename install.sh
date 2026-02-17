@@ -40,9 +40,6 @@ echo "Linking .vimrc"
 mkdir -p .vim/backup .vim/swap .vim/view .vim/undo
 ln -sf $DOTFILES_DIR/.vimrc
 
-echo "Linking .zplugrc"
-ln -sf $DOTFILES_DIR/.zplugrc
-
 echo "Linking .zshrc"
 ln -sf $DOTFILES_DIR/.zshrc
 
