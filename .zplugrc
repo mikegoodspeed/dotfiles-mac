@@ -6,7 +6,6 @@ source "$ZPLUG_HOME/init.zsh"
 
 # completions
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
-zplug "zsh-users/zsh-autosuggestions", from:github
 
 # load
 if ! zplug check --verbose; then
