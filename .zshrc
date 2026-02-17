@@ -35,3 +35,8 @@ fi
 for file in ~/.zplugrc ~/.aliases ~/.secrets; do
   [[ -r "$file" ]] && source "$file"
 done
+
+# prompt
+if command -v starship >/dev/null 2>&1; then
+  eval "$(starship init zsh)"
+fi

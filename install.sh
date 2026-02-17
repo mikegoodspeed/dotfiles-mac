@@ -27,6 +27,10 @@ ln -sf $DOTFILES_DIR/.hushlogin
 echo "Linking .inputrc"
 ln -sf $DOTFILES_DIR/.inputrc
 
+echo "Linking starship config"
+mkdir -p .config
+ln -sf $DOTFILES_DIR/.config/starship.toml .config/starship.toml
+
 echo "Linking .vimrc"
 mkdir -p .vim/backup .vim/swap .vim/view .vim/undo
 ln -sf $DOTFILES_DIR/.vimrc
