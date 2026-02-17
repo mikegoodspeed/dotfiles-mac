@@ -30,6 +30,7 @@ cask "rectangle"
 cask "sf-symbols"
 cask "transmission"
 cask "visual-studio-code"
+cask "zed"
 cask "zoom"
 mas "DaisyDisk", id: 411643860
 mas "iFlicks 3", id: 1274494218

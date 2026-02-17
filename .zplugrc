@@ -8,10 +8,6 @@ source "$ZPLUG_HOME/init.zsh"
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}'
 zplug "zsh-users/zsh-autosuggestions", from:github
 
-# solarized dircolors
-DIRCOLORS_SOLARIZED_ZSH_THEME="256dark"
-zplug "pinelibg/dircolors-solarized-zsh"
-
 # load
 if ! zplug check --verbose; then
 	zplug install

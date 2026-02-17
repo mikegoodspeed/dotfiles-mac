@@ -31,6 +31,11 @@ echo "Linking starship config"
 mkdir -p .config
 ln -sf $DOTFILES_DIR/.config/starship.toml .config/starship.toml
 
+echo "Linking lsd config"
+mkdir -p .config/lsd
+ln -sf $DOTFILES_DIR/.config/lsd/config.yaml .config/lsd/config.yaml
+ln -sf $DOTFILES_DIR/.config/lsd/colors.yaml .config/lsd/colors.yaml
+
 echo "Linking .vimrc"
 mkdir -p .vim/backup .vim/swap .vim/view .vim/undo
 ln -sf $DOTFILES_DIR/.vimrc
