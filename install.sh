@@ -46,6 +46,3 @@ ln -sf $DOTFILES_DIR/.zshrc
 echo "Installing Homebrew bundle"
 brew bundle install --global
 brew bundle cleanup --global --force
-
-echo "Installing Iterm2 Preferences"
-ln -sf $DOTFILES_DIR/.iterm.plist ~/Library/Preferences/com.googlecode.iterm2.plist
