@@ -38,7 +38,7 @@ echo "Linking .zshrc"
 ln -sf $DOTFILES_DIR/.zshrc
 
 echo "Installing Homebrew bundle"
-brew bundle install --global --no-lock
+brew bundle install --global
 brew bundle cleanup --global --force
 
 echo "Installing Iterm2 Preferences"
