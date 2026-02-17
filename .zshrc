@@ -23,10 +23,15 @@ bindkey "\e[F" end-of-line        # end
 bindkey "\e[1;5C" forward-word    # ctrl+right
 bindkey "\e[1;5D" backward-word   # ctrl+left
 
-# homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# keep PATH stable across repeated initializations
+typeset -U path PATH
 
-source ~/.zplugrc
-source ~/.aliases
-source ~/.secrets
+# homebrew (Apple Silicon only)
+if [[ -x /opt/homebrew/bin/brew ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
+# load optional local config files only when present
+for file in ~/.zplugrc ~/.aliases ~/.secrets; do
+  [[ -r "$file" ]] && source "$file"
+done
