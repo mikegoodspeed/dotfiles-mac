@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "autosave": "on_focus_change",
   "icon_theme": "JetBrains New UI Icons (Dark)",
   "buffer_font_family": "SauceCodePro Nerd Font",
   "telemetry": {
