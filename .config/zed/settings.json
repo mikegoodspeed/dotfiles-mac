@@ -7,6 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "play_sound_when_agent_done": true,
+    "commit_message_model": {
+      "provider": "openai",
+      "model": "gpt-5.2",
+    },
+  },
+  "auto_update": false,
   "autosave": "on_focus_change",
   "base_keymap": "Cursor",
   "buffer_font_family": "SauceCodePro Nerd Font",
