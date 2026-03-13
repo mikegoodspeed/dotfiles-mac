@@ -15,3 +15,5 @@ alias lt="ls --tree"
 export PATH="$HOME/.pyenv/shims:$PATH"
 eval "$(pyenv init -)"
 
+# codex git commit
+alias gcap='git add -A && git commit -m "$(git diff --cached | codex exec "Write a concise conventional commit message")" && git push'

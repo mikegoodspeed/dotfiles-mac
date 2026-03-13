@@ -41,6 +41,7 @@ mas "iFlicks 3", id: 1274494218
 mas "iMovie", id: 408981434
 mas "Ivory", id: 6444602274
 mas "Noir", id: 1592917505
+mas "RedirectWeb", id: 1571283503
 mas "Wipr", id: 1662217862
 vscode "ardonplay.vscode-jetbrains-full-icon-theme"
 vscode "charliermarsh.ruff"
