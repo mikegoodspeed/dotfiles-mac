@@ -1,6 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # GNU File, Shell, and Text utilities
@@ -53,10 +50,14 @@ cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "DaisyDisk", id: 411643860
+mas "GarageBand", id: 682658836
 mas "iFlicks 3", id: 1274494218
 mas "iMovie", id: 408981434
 mas "Ivory", id: 6444602274
+mas "Keynote", id: 361285480
 mas "Noir", id: 1592917505
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 mas "RedirectWeb", id: 1571283503
 mas "Reeder", id: 6475002485
 mas "Wipr", id: 1662217862
